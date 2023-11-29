@@ -519,13 +519,6 @@ if __name__=='__main__':
 	except:pass
 	try:os.system('touch prox.txt')
 	except:pass
-
-def Subscraption():
-	key1=open('/storage/emulated/0/android8.txt', 'r').read()
-	r1=requests.get("https://github.com/princemurad908/Approval.txt-bypass/blob/main/1.txt").text
-	if key1 in r1:
-		os.system('clear')
-		login()
 	else:
 		os.system("clear")
 		print("\033[97;1m[\033[92;1m•\033[97;1m]\33[0;92m FREE USER NOT COME INBOX")
