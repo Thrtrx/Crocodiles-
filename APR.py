@@ -509,29 +509,4 @@ def crack(idf,pwv):
 				cek_apk(session,coki)
 				break
 				
-			else:
-				continue
-		except requests.exceptions.ConnectionError:
-			time.sleep(31)
-	loop+=1
-if __name__=='__main__':
-	try:os.system('git pull')
-	except:pass
-	try:os.system('touch prox.txt')
-	except:pass
-	else:
-		os.system("clear")
-		print("\033[97;1m[\033[92;1m•\033[97;1m]\33[0;92m FREE USER NOT COME INBOX")
-		time.sleep(0.0010)
-		print("\033[97;1m[\033[92;1m•\033[97;1m]\x1b[38;5;208m Tutul King, ToOLs Daily Update")
-		print("\033[97;1m[\033[92;1m•\033[97;1m]\33[0;92m 7 DAYS 300 Tk")
-		print("\033[97;1m[\033[92;1m•\033[97;1m]\33[0;92m 15 DAYS 500 Tk")
-		print("\033[97;1m[\033[92;1m•\033[97;1m]\33[0;92m Your Key  :\033[0;93m "+ak+Tutul+key1)
-		name = input("\033[97;1m[\033[92;1m•\033[97;1m]\33[0;92m Your Name : ")
-		input("\033[97;1m[\033[92;1m•\033[97;1m]\33[0;92m Press Enter To Send Key")
-		time.sleep(3.5)
-		tks = 'Assalamu%20Alaikum-!💚,%20Please%20Approved%20My%20Key%20To%20Premium%20%20Thanks%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20Name%20:%20'+name+'%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20My%20%20Key%20%20:%20'+ak+Tutul+''+key1
-		os.system('am start https://wa.me/+8801767853679?text=' + tks)
-		Subscraption() 
-Subscraption() 
-login()
+	
